@@ -1,4 +1,4 @@
-import { SoundContextProvider } from "./context/SoundContext";
+// import  SoundContextProvider from "./context/SoundContext";
 import { Outlet } from "react-router-dom";
 
 
@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-      <SoundContextProvider>
+      {/* <SoundContextProvider> */}
       <Outlet />
-      </SoundContextProvider>
+      {/* </SoundContextProvider> */}
     </>
   );
 }
