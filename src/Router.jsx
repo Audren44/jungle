@@ -4,6 +4,7 @@ import Jungle from "./pages/Jungle";
 import Welcome from "./pages/Welcome";
 import About from "./pages/About";
 
+
 const router = createBrowserRouter(
     [
         {
