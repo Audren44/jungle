@@ -1,8 +1,6 @@
-
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/Paralax.css';
 
-// eslint-disable-next-line react/prop-types
 const ImageComponent = ({ src, speed, scroll, direction }) => {
     const [transform, setTransform] = useState(0);
 
@@ -15,7 +13,7 @@ const ImageComponent = ({ src, speed, scroll, direction }) => {
     );
 };
 
-const Welcome = () => {
+const Test = () => {
     const [scroll, setScroll] = useState(0);
 
     useEffect(() => {
@@ -38,5 +36,4 @@ const Welcome = () => {
     );
 };
 
-export default Welcome;
-
+export default Test;

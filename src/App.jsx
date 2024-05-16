@@ -1,10 +1,12 @@
-import Welcome from "./components/pages/Welcome";
+import { Outlet } from "react-router-dom";
+
+
 
 function App() {
 
   return (
     <>
-      <Welcome />
+      <Outlet />
     </>
   );
 }
