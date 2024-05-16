@@ -1,0 +1,22 @@
+// import { createContext, useState } from "react";
+// const SoundContext = createContext();
+
+// function SoundProvider({ children }) 
+// const [sound, setSound] = useState(true);
+//     const 
+//     return (
+//     <SoundContext.Provider value= {{ sound }} >
+//     <div>={ children } </div>
+//         </SoundContext.Provider>
+// )
+// export { SoundContext, SoundContextProvider };
+//       useEffect(() => {
+//     const music = new Audio('src/assets/sounds/jungle-noise.mp3');
+//     music.loop = true; 
+//     music.play();
+
+//     return () => {
+//       music.pause();
+//       music.currentTime = 0; 
+//     };
+//   }, []); 
