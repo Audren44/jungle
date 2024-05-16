@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import '../styles/Paralax.css';
 
@@ -38,3 +39,4 @@ const Welcome = () => {
 };
 
 export default Welcome;
+
