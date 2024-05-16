@@ -1,7 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import Jungle from "./components/pages/Jungle";
-import Welcome from "./components/pages/Welcome";
+import Jungle from "./pages/Jungle";
+import Welcome from "./pages/Welcome";
+import About from "./pages/About";
+
 
 const router = createBrowserRouter(
     [
@@ -16,6 +18,10 @@ const router = createBrowserRouter(
                 {
                     path: "jungle",
                     element: <Jungle />,
+                },
+                {
+                    path: "about",
+                    element: <About />,
                 }
 
             ]
