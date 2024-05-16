@@ -1,0 +1,23 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transform-style: preserve-3d;
+    background-image: url('../assets/image copie 3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.App img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    object-fit: cover;
+    transform-origin: center;
+}
