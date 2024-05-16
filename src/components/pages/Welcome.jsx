@@ -13,7 +13,7 @@ const ImageComponent = ({ src, speed, scroll, direction }) => {
     }, [scroll, speed]);
 
     return (
-        <img src={src} alt="" style={{ transform: `translateX(${direction * transform * 50}px) scale(${1 + transform / 10})` }} />
+        <img src={src} alt="" style={{ transform: `translateX(${direction * transform * 20}px) scale(${1 + transform / 50})` }} />
     );
 };
 
@@ -34,8 +34,8 @@ const Welcome = () => {
 
     return (
         <>
-            <ImageComponent src="src/assets/g.png" speed={0.5} scroll={scroll} direction={-1} />
-            <ImageComponent src="src/assets/d.png" speed={0.5} scroll={scroll} direction={1} />
+            <ImageComponent src="src/assets/g.png" speed={0.1} scroll={scroll} direction={-1} />
+            <ImageComponent src="src/assets/d.png" speed={0.1} scroll={scroll} direction={1} />
         </>
     );
 };
