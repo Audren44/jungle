@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './css/Test.css';
+import '../styles/Paralax.css';
 
 const ImageComponent = ({ src, speed, scroll, direction }) => {
     const [transform, setTransform] = useState(0);
