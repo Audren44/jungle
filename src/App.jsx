@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Outlet } from "react-router-dom";
-import jungleSound from './assets/sounds/nature-soundstropicaljunglebirds-108380.mp3'; // Remplacez par le chemin de votre fichier audio
+import jungleSound from './assets/sounds/nature-soundstropicaljunglebirds-108380.mp3';
 
 function App() {
     const [soundPlayed, setSoundPlayed] = useState(false);
