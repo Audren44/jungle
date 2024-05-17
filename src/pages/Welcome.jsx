@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import '../styles/Paralax.css';
 import '../global.css';
-import jungleSound from '../assets/sounds/nature-soundstropicaljunglebirds-108380.mp3'; // Remplacez par le chemin de votre fichier audio
+import jungleSound from '../assets/sounds/nature-sound.mp3'; // Remplacez par le chemin de votre fichier audio
 
 
 // eslint-disable-next-line react/prop-types
@@ -80,7 +80,7 @@ const Welcome = () => {
 
             <ImageComponent2 src="src/assets/g2.png" speed={0.1 / 4} scroll={scroll} direction={-1} />
             <ImageComponent2 src="src/assets/d2.png" speed={0.1 / 4} scroll={scroll} direction={1} />
-            <ZoomingText text="Welcome to the Jungle " speed={0.25 / 8} scroll={scroll} direction={-1}/>
+            <ZoomingText text="Welcome to the Jungle " speed={0.25 / 8} scroll={scroll} direction={-1} />
             <ImageComponent src="src/assets/g.png" speed={0.2 / 4} scroll={scroll} direction={-1} />
             <ImageComponent src="src/assets/d.png" speed={0.2 / 4} scroll={scroll} direction={1} />
 

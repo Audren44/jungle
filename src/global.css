@@ -8,3 +8,41 @@ body {
     background-attachment: fixed;
     background-color: darkgreen;
 }
+
+.parrot-one {
+    position: static;
+    width: 10%;
+    height: 10%;
+    margin: 5px;
+}
+
+.parrot-two {
+    position: static;
+
+    width: 15%;
+    height: 15%;
+    margin-left: 200px;
+}
+
+
+.jungle-global {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.parrot-global:hover {
+    border: 2px solid black;
+    scale: 1.5;
+}
+
+/* .jungle-global>img {
+
+    width: 10%;
+    height: auto;
+    background-color: green;
+    margin: 5px;
+
+} */
