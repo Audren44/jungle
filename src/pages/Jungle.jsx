@@ -9,7 +9,6 @@ import {useEffect} from "react";
 
 function Jungle() {
 
-    // const [soundParrot, setSoundParrot] = useState(false);
     const parrotSoundAudio = new Audio(soundParrot1);
     const playSoundParrot = () => {
         parrotSoundAudio.play().catch(error => console.log(error));
@@ -43,16 +42,11 @@ function Jungle() {
     return (
         <div className="jungle-global">
 
-            <img className="parrot-one parrot-global" src={parrot1} alt="parrot" onClick={playSoundParrot}></img>
-            <img className="parrot-one parrot-global" src={parrot11} alt="parrot" onClick={playSoundParrot}></img>
-            <img className="parrot-one parrot-global" src={parrot2} alt="parrot" onClick={playSoundParrot}></img>
-            <img className="parrot-one parrot-global" src={parrot3} alt="parrot" onClick={playSoundParrot}></img>
-            <img className="parrot-two parrot-global" src={parrotFly} alt="parrot flying"></img>
-            <p>test css , ici page Jungle</p>
-            <audio controls>
-                <source src={soundParrot1} type="audio/mp3" />
-                Your browser does not support the audio element.
-            </audio>
+            <img className="parrot-one parrot-global div1 parrot-except" src={parrot1} alt="parrot" onClick={playSoundParrot}></img>
+            <img className="parrot-one parrot-global div2" src={parrot3} alt="parrot" onClick={playSoundParrot}></img>
+            <img className="parrot-one parrot-global div3 parrot-except" src={parrot2} alt="parrot" onClick={playSoundParrot}></img>
+            <img className="parrot-one parrot-global div4" src={parrot11} alt="parrot" onClick={playSoundParrot}></img>
+            <img className="parrot-two parrot-global div5 translate" src={parrotFly} alt="parrot flying"></img>
 
         </div>
     );
