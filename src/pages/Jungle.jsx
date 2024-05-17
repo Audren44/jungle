@@ -5,6 +5,7 @@ import parrot11 from "../assets/1.png"
 import parrot2 from "../assets/2.png"
 import parrot3 from "../assets/3.png"
 import "../global.css"
+import {useEffect} from "react";
 
 function Jungle() {
 
@@ -14,6 +15,30 @@ function Jungle() {
         parrotSoundAudio.play().catch(error => console.log(error));
         setSoundPlayed(true);
     };
+
+
+    //scroll back to home page*********************************
+    // eslint-disable-next-line no-unused-vars
+    let lastScrollTop = 0;
+
+    useEffect(() => {
+        const handleScroll = () => {
+            let st = window.pageYOffset || document.documentElement.scrollTop;
+            if (st <= 0){
+                // Si on est en haut de la page
+                window.location.href = '/';
+            }
+            lastScrollTop = st <= 0 ? 0 : st;
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    //scroll back to home page********************
 
     return (
         <div className="jungle-global">
