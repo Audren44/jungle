@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
-import '../../styles/Paralax.css';
-import '../../global.css';
+import '../styles/Paralax.css';
+import '../global.css';
 
 
 // eslint-disable-next-line react/prop-types
