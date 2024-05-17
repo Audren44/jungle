@@ -1,8 +1,8 @@
 
 import { useState, useEffect } from 'react';
-import '../../styles/Paralax.css';
-import '../../global.css';
-import jungleSound from '../../assets/sounds/nature-soundstropicaljunglebirds-108380.mp3'; // Remplacez par le chemin de votre fichier audio
+import '../styles/Paralax.css';
+import '../global.css';
+import jungleSound from '../assets/sounds/nature-soundstropicaljunglebirds-108380.mp3'; // Remplacez par le chemin de votre fichier audio
 
 
 // eslint-disable-next-line react/prop-types
