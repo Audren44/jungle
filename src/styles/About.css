@@ -1,38 +1,50 @@
- .about-container {
-     margin: 0 auto;
-     margin-left: 11em;
-     margin-right: 11em;
-     padding: 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
- }
-
- .about-text {
-     position: relative;
-     font-family: sans-serif;
-     text-transform: uppercase;
-     font-size: 2em;
-     letter-spacing: 4px;
-     overflow: hidden;
-     background: linear-gradient(90deg, #FF3333, #FFD700, #FF3333);
-     background-repeat: no-repeat;
-     background-size: 80%;
-     animation: animate 30s linear infinite;
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: rgba(255, 255, 255, 0);
-     font-weight: bold;
- }
+.home-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(241, 194, 41);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+}
 
 
- @keyframes animate {
-     0% {
-         background-position: -500%;
-     }
+.about-container {
+    margin: 0 auto;
+    margin-left: 11em;
+    margin-right: 11em;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-     100% {
-         background-position: 500%;
-         -webkit-text-fill-color: rgba(255, 255, 255, 1);
-     }
- }
+.about-text {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #FF3333, #FFD700, #FF3333);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    animation: animate 20s linear;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+}
+
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+
+    100% {
+        background-position: 500%;
+        -webkit-text-fill-color: rgba(255, 255, 255, 1);
+    }
+}
