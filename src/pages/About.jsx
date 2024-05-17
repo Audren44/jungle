@@ -6,7 +6,6 @@ function About() {
     return (
         <>
             <div className="about-container">
-                <h1 className='about-title'>A propos des perroquets</h1>
                 <p className='about-text'>
                     Les perroquets sont des oiseaux connus
                     pour leur faculté d'immitation de la
