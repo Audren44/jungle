@@ -1,14 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./assets/image copie 3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .parrot-one {
+    position: static;
     width: 5%;
     height: 5%;
     background-color: green;
+    margin: 5px;
+}
+
+.parrot-two {
+    position: static;
+
+    width: 10%;
+    height: 10%;
+    background-color: green;
+    margin-left: 200px;
+}
 
 
-    body {
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 0;
-        background-image: url('./assets/image copie 3.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+.jungle-global {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .jungle-global>img {
+
+    width: 10%;
+    height: auto;
+    background-color: green;
+    margin: 5px;
+
+} */
