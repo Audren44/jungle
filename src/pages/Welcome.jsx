@@ -60,9 +60,7 @@ const Welcome = () => {
         const handleScroll = () => {
             setScroll(window.scrollY);
 
-            if (window.scrollY > 0 && !soundPlayed) {
-                playSound();
-            }
+
 
             if (window.scrollY > 1200) {
                 window.location.href = '/jungle';

@@ -1,4 +1,5 @@
 import '../styles/About.css'
+import { Link } from 'react-router-dom';
 
 
 function About() {
@@ -6,6 +7,7 @@ function About() {
     return (
         <>
             <div className="about-container">
+                <Link to="/" className="home-link">Return</Link>
                 <p className='about-text'>
                     Les perroquets sont des oiseaux connus
                     pour leur faculté d'immitation de la
