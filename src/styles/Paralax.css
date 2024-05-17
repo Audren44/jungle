@@ -8,3 +8,32 @@ img {
     transform-origin: center;
     height: inherit;
 }
+
+.zooming-text {
+    color: rgba(7, 36, 154, 0.71);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    position: absolute;
+    font-size: 4rem;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Styles supplémentaires pour le bouton */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    background-color: rgba(0, 123, 255, 0.7);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 2;
+}
