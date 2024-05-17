@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import '../styles/Paralax.css';
 import '../global.css';
-import jungleSound from '../assets/sounds/nature-soundstropicaljunglebirds-108380.mp3';
+import jungleSound from '../../assets/sounds/nature-soundstropicaljunglebirds-108380.mp3';
 
 
 // eslint-disable-next-line react/prop-types
