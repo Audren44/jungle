@@ -7,6 +7,10 @@ import parrot3 from "../assets/3.png"
 import "../global.css"
 
 function Jungle() {
+   
+    const handleClick = () => {
+    window.location.href = 'http://localhost:5173/about';
+    };
 
     // const [soundParrot, setSoundParrot] = useState(false);
     const parrotSoundAudio = new Audio(soundParrot1);
@@ -22,7 +26,7 @@ function Jungle() {
             <img className="parrot-one parrot-global" src={parrot11} alt="parrot" onClick={playSoundParrot}></img>
             <img className="parrot-one parrot-global" src={parrot2} alt="parrot" onClick={playSoundParrot}></img>
             <img className="parrot-one parrot-global" src={parrot3} alt="parrot" onClick={playSoundParrot}></img>
-            <img className="parrot-two parrot-global" src={parrotFly} alt="parrot flying"></img>
+            <img onClick={handleClick} className="parrot-two parrot-global" src={parrotFly} alt="parrot flying"></img>
             <p>test css , ici page Jungle</p>
             <audio controls>
                 <source src={soundParrot1} type="audio/mp3" />
@@ -33,4 +37,4 @@ function Jungle() {
     );
 }
 
-export default Jungle
+    export default Jungle
