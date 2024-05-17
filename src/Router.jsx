@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import Jungle from "./components/pages/Jungle";
-import Welcome from "./components/pages/Welcome";
-import About from "./components/pages/About.jsx";
+import Jungle from "./pages/Jungle";
+import Welcome from "./pages/Welcome";
+import About from "./pages/About.jsx";
 
 
 const router = createBrowserRouter(
