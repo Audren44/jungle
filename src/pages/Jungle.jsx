@@ -14,7 +14,8 @@ import { useEffect } from "react";
 function Jungle() {
 
     const handleClick = () => {
-        window.location.href = 'http://localhost:5173/about';
+        //window.location.href = 'http://localhost:5173/about';
+        window.location.href = '/about';
     };
 
     const parrotSoundAudio = [soundParrot1, soundParrot2, soundParrot3, soundParrot4];
